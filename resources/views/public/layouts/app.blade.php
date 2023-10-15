@@ -14,6 +14,13 @@
     <link href="/assets/css/tabler-payments.min.css?1684106062" rel="stylesheet" />
     <link href="/assets/css/tabler-vendors.min.css?1684106062" rel="stylesheet" />
     <link href="/assets/css/demo.min.css?1684106062" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+
     <style>
         @import url('https://rsms.me/inter/inter.css');
 
@@ -44,6 +51,8 @@
         integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script src="/assets/js/tabler.min.js?1684106062" defer></script>
     <script src="/assets/js/demo.min.js?1684106062" defer></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
     @stack('js')
 </body>
 
